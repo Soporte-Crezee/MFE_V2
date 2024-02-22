@@ -33,7 +33,7 @@ function CourseDates({
   return (
     <section className="mb-4">
       <div id="courseHome-dates">
-      <!--<h2 className="h4">{intl.formatMessage(messages.dates)}</h2>-->
+      {/* <h2 className="h4">{intl.formatMessage(messages.dates)}</h2> */}
         <ol className="list-unstyled">
           {courseDateBlocks.map((courseDateBlock) => (
             <DateSummary

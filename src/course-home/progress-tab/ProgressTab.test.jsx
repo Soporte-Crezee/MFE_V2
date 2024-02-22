@@ -221,7 +221,8 @@ describe('Progress Tab', () => {
       await fetchAndRender();
       expect(screen.getByRole('button', { name: 'Grade range tooltip' }));
       expect(screen.getByTestId('currentGradeTooltipContent').innerHTML).toEqual('80%');
-      expect(screen.getByTestId('gradeSummaryTotalWeightedGrade').innerHTML).toEqual('80%');
+      expect(screen.getByTestId('gradeSummaryFooterTotalWeightedGrade').innerHTML).toEqual('80%');
+      // expect(screen.getByTestId('gradeSummaryTotalWeightedGrade').innerHTML).toEqual('80%');
       expect(await screen.findByText('You’re currently passing this course with a grade of B (80-90%)')).toBeInTheDocument();
     });
 
