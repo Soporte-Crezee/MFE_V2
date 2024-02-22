@@ -24,6 +24,13 @@
     font-size: 1.5rem!important;
   }
 
+  @media (min-width: 768px) {
+    .col-md-4 {
+      border-style: double !important;
+      border-color: #002F6C !important;
+    }
+  }
+
   .h4 {
     font-size: 1.125rem;
     color: #7F7F7F!important;
