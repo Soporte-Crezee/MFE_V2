@@ -75,9 +75,10 @@ function TabPage({ intl, ...props }) {
         </Toast>
         {metadataModel === 'courseHomeMeta' && (<LaunchCourseHomeTourButton srOnly />)}
         <Header
+          courseTitle={title}
           courseOrg={org}
           courseNumber={number}
-          courseTitle={title}
+          // courseTitle={title}
         />
         <LoadedTabPage {...props} />
         <Footer />
