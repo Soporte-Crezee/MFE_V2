@@ -10,6 +10,21 @@
   flex-direction: column;
   min-height: 100vh;
 
+  
+  .dropdown-toggle {
+    display: inline-block;
+    width: 163px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+ }
+
+ .btn-inverse-outline-primary {
+  border-color: #fff;
+  color: #fff;
+  width: 100px !important;
+ }
   .bg-primary {
     background-color: #002F6C!important;
   }
