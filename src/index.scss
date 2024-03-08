@@ -23,10 +23,16 @@
  .btn-inverse-outline-primary {
   border-color: #fff;
   color: #fff;
-  width: 100px !important;
+  width: 85px !important;
  }
+
+ .btn-inverse-outline-primary:hover {
+  background-color: #f0f3f5;
+  color: #002FC6!important;
+ }
+
   .bg-primary {
-    background-color: #002F6C!important;
+    background-color: #002FC6!important;
   }
 
   .py-3 {
@@ -35,13 +41,13 @@
   }
 
   .h2 {
-    color: #002F6C!important;
+    color: #002FC6!important;
     font-size: 1.5rem!important;
   }
 
   @media (min-width: 768px) {
     .col-md-4 {
-      border-color: #002F6C !important;
+      border-color: #002FC6 !important;
       border-style: solid!important;
       border-width: 1px!important;
       height: 260px!important;
@@ -74,10 +80,10 @@
   .mt-2 {
     color: #7F7F7F!important;
   }
-
+m
   .btn-brand {
-    background-color: #002F6C !important;
-    border-color: #002F6C !important;
+    background-color: #002FC6 !important;
+    border-color: #002FC6 !important;
   }
 
   .btn-brand:hover {
